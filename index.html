@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: #ffffff url() no-repeat right top;
+            margin-right: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Rugg 4 Vu</h1>
+    <h2>float: left</h2>
+    <p> <img src="rug4vulogo.jpg" alt="Rugg Logo" width="150" height="150"> </p>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="http://127.0.0.1:5500/index.html">home</a>
+                <a href="about">about</a>
+                <a href="https://www.instagram.com/rugs_4vu/">contact</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>&lt;section&gt;</h2>
+            </section>
+            <article>
+                <h2>&lt;article&gt;</h2>
+            </article>
+        </main>
+        <aside>
+            <h2>&lt;aside&gt;</h2>
+        </aside>
+        <footer>
+            <h2>&lt;Footer&gt;</h2>
+            <p>&copy; Website</p>
+        </footer>
+        <h1> The footer element</h1>
+        <footer>
+            <p> Author: Hege refsnes <br>
+            <a href="Quy.vu0992@gmail.com">Quy.vu0992@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+    <style>
+        body{
+            background-image: url(img_rugg.jpg) ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Style the header */
+        header{
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        /* Create two columns/boxes that floats next to each other*/
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px; /* only for demonstration, should be removed*/
+            background: #ccc;
+            padding: 20px;
+        }
+        /* style the list inside the menu*/
+        nav ul{
+            list-style-type: none;
+            padding:0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;/*only for demonstration, should be removed*/
+        }
+        /* clear floats after the colums*/
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* style the footer*/
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /* Responsive layout-makes the two columns/boxes stack on top of each other instead of next to each onther, on small screens*/
+        @media (max-width:600px){
+        nav, article{
+            width: 100%;
+            height: auto;
+        }
+    } 
+    </style>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/vularry/?viewas=100000686899395&show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/hype559" class="fa fa-twitter"></a>
+   
+</body>
+</html>
